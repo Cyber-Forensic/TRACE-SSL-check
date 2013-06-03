@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document SSLyzeVersion="SSLyze v0.6" SSLyzeWeb="https://github.com/isecPartners/sslyze" title="SSLyze Scan Results">
+  <results defaultTimeout="5" httpsTunnel="None" startTLS="None" totalScanTime="6.09576892853"/>
+</document>

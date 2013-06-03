@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document SSLyzeVersion="SSLyze v0.6" SSLyzeWeb="https://github.com/isecPartners/sslyze" title="SSLyze Scan Results">
+  <results defaultTimeout="5" httpsTunnel="None" startTLS="None" totalScanTime="5.81299996376">
+    <target host="bing.com" ip="131.253.33.200" port="443">
+      <certinfo argument="basic" title="Certificate">
+        <certificate hasMatchingHostname="False" isExtendedValidation="False" isTrustedByMozillaCAStore="True" sha1Fingerprint="5BD14C4AC0B9C107AA925C614BF7B9FD1D0CF8DD">
+          <subjectPublicKeyInfo>
+            <publicKey>
+              <modulus>00:d7:3c:4e:b0:9e:eb:ed:aa:f0:f6:fc:fb:e1:dd:dc:d0:6b:83:51:ee:04:02:29:97:9c:f9:7f:90:cf:f2:24:13:b6:4c:21:b2:85:f3:53:30:0f:a9:9e:7c:03:67:85:a9:a6:1f:8c:fe:17:62:86:8f:1d:ea:c3:9e:97:c9:d1:0b:24:07:d9:47:59:84:c9:06:0a:90:c0:7d:cc:8f:25:cd:33:24:12:9c:6f:0f:ab:23:60:63:d9:c6:8d:11:d0:07:d9:a3:39:9a:89:56:8f:60:01:ce:d5:32:d9:5d:b0:2b:bf:97:29:2a:94:67:a1:3a:b2:63:1b:4b:2d:89:b5:a8:48:c9:77:f4:e9:fd:f4:ba:b2:60:02:fa:54:38:0e:2d:5f:d9:87:81:e7:29:49:3c:50:ae:79:db:37:e2:25:2e:a2:05:19:89:f5:0b:b6:b6:b2:81:fe:a9:a3:20:93:69:f1:70:15:ca:e8:65:9d:89:49:a0:4f:7f:10:57:3d:fb:4b:32:8c:83:58:2a:28:a4:6e:b2:e3:e1:ee:d9:e3:29:1d:58:83:68:cb:81:96:f4:23:a7:94:6f:f7:42:14:01:5f:b4:e0:68:3f:31:20:62:bc:5b:a5:6a:3d:4b:8b:c6:2b:65:14:96:84:60:ae:c1:aa:5f:b4:d9:d3:73:cf:5f</modulus>
+              <exponent>65537</exponent>
+            </publicKey>
+            <publicKeyAlgorithm>rsaEncryption</publicKeyAlgorithm>
+            <publicKeySize>2048</publicKeySize>
+          </subjectPublicKeyInfo>
+          <version>3</version>
+          <extensions>
+            <X509v3SubjectKeyIdentifier>F9:26:B9:CC:A4:E5:93:80:FA:DA:85:99:3A:76:CB:A1:5B:68:C2:42</X509v3SubjectKeyIdentifier>
+            <AuthorityInformationAccess>
+              <CAIssuers>
+                <URI>http://www.microsoft.com/pki/mscorp/MSIT%20Machine%20Auth%20CA%202(1).crt</URI>
+                <URI>http://corppki/aia/MSIT%20Machine%20Auth%20CA%202(1).crt</URI>
+              </CAIssuers>
+            </AuthorityInformationAccess>
+            <X509v3ExtendedKeyUsage>
+              <TLSWebClientAuthentication/>
+              <TLSWebServerAuthentication/>
+            </X509v3ExtendedKeyUsage>
+            <X509v3CRLDistributionPoints>
+              <FullName/>
+              <URI>http://mscrl.microsoft.com/pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl</URI>
+              <URI>http://crl.microsoft.com/pki/mscorp/crl/MSIT%20Machine%20Auth%20CA%202(1).crl</URI>
+              <URI>http://corppki/crl/MSIT%20Machine%20Auth%20CA%202(1).crl</URI>
+            </X509v3CRLDistributionPoints>
+            <X509v3KeyUsage>
+              <KeyEncipherment/>
+              <DataEncipherment/>
+              <DigitalSignature/>
+            </X509v3KeyUsage>
+            <X509v3SubjectAlternativeName>
+              <DNS>ieonline.microsoft.com</DNS>
+              <DNS>*.bing.com</DNS>
+              <DNS>*.windowssearch.com</DNS>
+            </X509v3SubjectAlternativeName>
+            <X509v3AuthorityKeyIdentifier>keyid:EB:DB:11:5E:F8:09:9E:D8:D6:62:9C:FD:62:9D:E3:84:4A:28:E1:27</X509v3AuthorityKeyIdentifier>
+            <oid-1.3.6.1.4.1.311.21.7>&lt;Not Supported&gt;</oid-1.3.6.1.4.1.311.21.7>
+            <oid-1.3.6.1.4.1.311.21.10>&lt;Not Supported&gt;</oid-1.3.6.1.4.1.311.21.10>
+          </extensions>
+          <signatureValue>91:7a:ca:49:1d:a7:64:70:d7:06:25:89:b0:44:98:49:66:91:fd:97:ed:a6:9f:61:88:0d:3d:7c:79:ce:07:fa:7c:09:7a:2c:ee:46:97:43:5b:94:02:3b:b3:20:25:e0:18:2f:02:68:d8:21:25:77:2f:19:1f:25:2c:05:dd:ca:46:de:4b:5a:21:0e:2e:01:c6:c0:00:a2:d8:ca:46:db:ae:20:09:50:3d:4a:58:32:58:aa:9a:83:80:32:16:e8:32:e1:23:10:34:87:fa:ad:87:59:7e:ec:76:f8:48:2b:16:a8:2f:17:b7:d2:cc:f0:5c:c7:f3:c8:4e:cb:e0:9e:fd:e7:2b:d3:9b:7b:e2:f0:a1:93:ce:01:fb:8f:79:31:08:69:34:0c:94:9b:15:b7:6d:7f:51:1e:43:b2:31:8c:19:07:b0:79:da:c0:99:75:29:09:0b:3d:5b:c2:a0:96:e4:08:60:21:91:5f:03:08:a9:83:19:ef:15:b8:80:a3:9b:42:7d:a1:4a:20:51:bb:ff:65:10:ae:64:27:c4:cc:c5:3c:f2:27:db:c3:e1:a8:2f:10:71:89:96:96:ba:12:4e:05:42:97:a9:f0:cd:0e:ed:32:45:fc:a2:08:b9:79:be:33:f6:7c:92:d2:39:65:67:33:50:94:d0:02:70:ab</signatureValue>
+          <signatureAlgorithm>sha1WithRSAEncryption</signatureAlgorithm>
+          <serialNumber>19420486000100003F1C</serialNumber>
+          <subject>
+            <commonName>*.bing.com</commonName>
+          </subject>
+          <validity>
+            <notAfter>Feb  5 22:24:33 2015 GMT</notAfter>
+            <notBefore>Feb  5 22:24:33 2013 GMT</notBefore>
+          </validity>
+          <issuer>
+            <commonName>MSIT Machine Auth CA 2</commonName>
+            <domainComponent>com</domainComponent>
+            <domainComponent>microsoft</domainComponent>
+            <domainComponent>corp</domainComponent>
+            <domainComponent>redmond</domainComponent>
+          </issuer>
+        </certificate>
+      </certinfo>
+      <compression title="Compression">
+        <compression isSupported="False"/>
+      </compression>
+      <reneg title="Session Renegotiation">
+        <sessionRenegotiation canBeClientInitiated="False" isSecure="True"/>
+      </reneg>
+      <resum title="Session Resumption">
+        <sessionResumptionWithSessionIDs errors="0" failedAttempts="5" isSupported="False" successfulAttempts="0" totalAttempts="5"/>
+        <sessionResumptionWithTLSTickets isSupported="False" reason="TLS ticket not assigned"/>
+      </resum>
+      <sslv2 title="SSLV2 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC3-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="IDEA-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="RC4-MD5"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites/>
+        <preferredCipherSuite/>
+      </sslv2>
+      <sslv3 title="SSLV3 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="IDEA-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="NULL-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="168 bits" name="DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-MD5"/>
+        </acceptedCipherSuites>
+        <preferredCipherSuite>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-SHA"/>
+        </preferredCipherSuite>
+      </sslv3>
+      <tlsv1 title="TLSV1 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="IDEA-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="NULL-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="168 bits" name="DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="ECDHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="ECDHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-MD5"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-SHA"/>
+        </acceptedCipherSuites>
+        <preferredCipherSuite>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA"/>
+        </preferredCipherSuite>
+      </tlsv1>
+      <tlsv1_1 title="TLSV1_1 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ADH-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="IDEA-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="NULL-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="168 bits" name="DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="ECDHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="ECDHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-MD5"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-SHA"/>
+        </acceptedCipherSuites>
+        <preferredCipherSuite/>
+      </tlsv1_1>
+      <tlsv1_2 title="TLSV1_2 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ADH-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AECDH-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES128-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="EXP-RC4-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="IDEA-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-MD5"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="NULL-SHA256"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TLS Alert - No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SEED-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite connectionStatus="TCP - Received FIN" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA256"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="AES256-SHA256"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="168 bits" name="DES-CBC3-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="256 bits" name="ECDHE-RSA-AES256-SHA"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-MD5"/>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="RC4-SHA"/>
+        </acceptedCipherSuites>
+        <preferredCipherSuite>
+          <cipherSuite connectionStatus="HTTP 301 Moved Permanently - http://www.bing.com/" keySize="128 bits" name="AES128-SHA256"/>
+        </preferredCipherSuite>
+      </tlsv1_2>
+    </target>
+  </results>
+</document>
