@@ -1,0 +1,5 @@
+This is a simple python script to check for existing vulnerable HTTP Methods, as well as check SSL and display in a logical way what is insecure and what is secure.
+
+It is intended to work on all operating systems although I have only tested it on windows and Ubuntu. It uses SSLyze which uses openssl on linux.
+
+To use this just run scan.py and enter the hostname of the server that you are testing. It will handle the rest.
