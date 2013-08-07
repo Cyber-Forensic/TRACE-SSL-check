@@ -2,6 +2,7 @@
 
 
 import os
+import sys
 if os.name == 'nt':
     GOODSTART = ""
     GOODEND = ""
@@ -50,8 +51,12 @@ try:
 
 
     TRACE = False
-
-    address = raw_input("server ip or domain? ")
+    try:
+        commandline = True
+        address = sys.argv[1]
+    except:
+        commandline = False
+        address = raw_input("server ip or domain? ")
     if('://' not in address):
         address = 'http://'+address
     url = resolve_http_redirect(address, 'TRACE')
@@ -146,7 +151,8 @@ if os.name == 'nt':
     f = open('ciphers')
     ciphers = eval(f.read())
     f.close()
-    subprocess.check_output(['python','windows/sslyze.py','--regular',netloc, '--xml_out=out.xml'])
+    os.chdir('windows')
+    subprocess.check_output(['python','sslyze.py','--regular',netloc, '--xml_out=out.xml'])
     
 else:
     try:
@@ -163,7 +169,8 @@ else:
         f = open('ciphers')
         ciphers = eval(f.read())
         f.close()
-    subprocess.check_output(['python','not/sslyze.py','--regular',netloc, '--xml_out=out.xml'])
+    os.chdir('not')
+    subprocess.check_output(['python','sslyze.py','--regular',netloc, '--xml_out=out.xml'])
 
 findings = et.parse('out.xml').getroot()[0][0]
 certinfo = findings[0]
@@ -220,8 +227,8 @@ print 'resuming with TLS:         '+str(resumTLS)
 
 os.remove('out.xml')
 
-
-raw_input('press enter to finish')
+if(not commandline):
+    raw_input('press enter to finish')
 
 
 
