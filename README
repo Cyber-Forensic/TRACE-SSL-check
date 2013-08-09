@@ -1,4 +1,6 @@
-This only works on 64 bit windows to make it work for 32 bit windows you must replace the files in the windows folder of this program with the 32 bit version of sslyze. This is a simple python script to check for existing vulnerable HTTP Methods, as well as check SSL and display in a logical way what is insecure and what is secure.
+This only works on linux, mac, and 64 bit windows to make it work for 32 bit windows you must replace the files in the windows folder of this program with the 32 bit version of sslyze. 
+
+This is a simple python script to check for existing vulnerable HTTP Methods, as well as check SSL and display in a logical way what is insecure and what is secure.
 
 It is intended to work on all operating systems although I have only tested it on windows and Ubuntu. It uses SSLyze which uses openssl on linux.
 
@@ -6,3 +8,5 @@ To use this just run scan.py and enter the hostname of the server that you are t
 
 To run this, double click on the file and enter the host, or just run:
 python scan.py <site to scan>
+
+If you have recomendations of other things to check, or ways to make it easier to use, with less dependencies, drop a note of your idea on the issues and I will implement it when I get a chance.
